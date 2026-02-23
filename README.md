@@ -1,8 +1,8 @@
 # 🏡 Adventurelust
 
-[![Live Demo](https://img.shields.io/badge/Live-Demo-green?style=for-the-badge&logo=vercel)]()
+[![Live Demo](https://img.shields.io/badge/Live-Demo-green?style=for-the-badge&logo=vercel)](https://adventurelust.vercel.app/)
 
-> **Adventurelust** — A responsive hotel's listing web application where users can register, login, add/view house listings, and edit the listing image or details. Customer can see the location of the hotel. Built with modern backend technologies.  
+> **Adventurelust** — A responsive hotel's listing web application where users can register, login, add/view house listings, and edit the listing image or other details. Customer can see the location of the hotel. Built with modern backend technologies.  
 
 ---
 
@@ -10,7 +10,7 @@
 
 | Home Page | Add House Page | Sign In Page |
 |-----------|----------------|---------------|
-| ![Home]() | ![Add House]() | ![Sign In]() |
+| ![Home](https://github.com/Sujit0604/Adventurelust/blob/main/Screenshot%202026-02-23%20222738.png) | ![Add House](https://github.com/Sujit0604/Adventurelust/blob/main/Screenshot%202026-02-23%20222856.png) | ![Sign In](https://github.com/Sujit0604/Adventurelust/blob/main/Screenshot%202026-02-23%20222945.png) |
 
 ---
 
@@ -55,8 +55,8 @@ Adventurelust/
 ├─ cloudeConfig.js
 ├─ middleware.js
 ├─ package.json
-├─ screenshots/
 ├─ README.md
+├─ screenshots/
 └─ schema.js
 ```
 ---
