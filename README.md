@@ -8,7 +8,7 @@
 
 ## 📸 Screenshots
 
-| Home Page | Add House Page | Sign In Page |
+| Home Page | Add House Page | Sign Up Page |
 |-----------|----------------|---------------|
 | ![Home](https://github.com/Sujit0604/Adventurelust/blob/main/Screenshot%202026-02-23%20222738.png) | ![Add House](https://github.com/Sujit0604/Adventurelust/blob/main/Screenshot%202026-02-23%20222856.png) | ![Sign In](https://github.com/Sujit0604/Adventurelust/blob/main/Screenshot%202026-02-23%20222945.png) |
 
