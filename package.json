@@ -2,7 +2,7 @@
   "engines": {
     "node": "22.11.0"
   },
-  "name": "majorproject",
+  "name": "adventurelust",
   "version": "1.0.0",
   "main": "app.js",
   "scripts": {

@@ -41,6 +41,7 @@ async function main() {
 
 app.listen(8080, () => {
     console.log("Server is listening on port 8080");
+    console.log("localhost:-  " + "http://localhost:8080/");
 });
 
 const store = MongoStore.create({

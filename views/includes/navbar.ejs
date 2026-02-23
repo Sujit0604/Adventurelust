@@ -22,20 +22,22 @@
     font-size: 1rem;
   }
 
-  /* .navbar-collapse {
+  .navbar-collapse {
     background-color: white;
   }
 
   .navbar-collapse div {
     padding-left: 10px;
     padding-right: 10px
-  } */
+  }
 
-  /* enter this into the meadia query */
-  /* .navbar-collapse input { 
-    font-size: 0.8rem;
-    padding: 0.5rem 2rem 0.5rem 2rem;
-  } */
+  @media only screen and (min-width: 200px) and (max-width: 575px) {
+    .navbar-collapse input { 
+      font-size: 1rem;
+      padding: 0.5rem 0.8rem 0.5rem 1rem;
+    }
+  }
+  
 </style>
 
   <nav class="navbar navbar-expand-md bg-body-light border-bottom sticky-top">
@@ -46,7 +48,10 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav">
-          <a class="nav-link" href="/listings">Explore</a>
+          <a class="nav-link" href="/listings">Explore.</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <% if(currUser) { %>
+            <span class="nav-link"><b>Hi, <%=currUser.username%></b></span>
+          <% } %>
         </div>
 
         <div class="navbar-nav ms-auto">
@@ -59,7 +64,7 @@
         </div>
 
         <div class="navbar-nav ms-auto">
-          <a class="nav-link" href="/listings/new">Ramble your home</a>
+          <a class="nav-link" href="/listings/new">Adventurelust your home</a>
           <% if(!currUser) { %>
             <a class="nav-link" href="/signup"><b>Sign up</b></a>
             <a class="nav-link" href="/login"><b>Log in</b></a>
